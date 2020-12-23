@@ -59,9 +59,9 @@ module.exports = {
     // https://github.com/prettier/eslint-plugin-prettier
     'prettier/prettier': 'error',
 
-    // Allow .js files to use JSX syntax
+    // Allow .ts files to use TSX syntax
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.ts', '.tsx'] }],
 
     'react/forbid-prop-types': 'off',
     'react/destructuring-assignment': 'off',

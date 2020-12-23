@@ -11,6 +11,7 @@ Supported features:
 * CSS modules
 * ESlint/Prettier
 * GitHub Pages deployment
+* TypeScript
 
 # To copy into a new folder
 
