@@ -6,7 +6,7 @@ const config = {
   mode: isDevelopment ? 'development' : 'production',
   devtool: 'cheap-source-map',
   context: path.join(__dirname, 'src'),
-  entry: ['./main.js'],
+  entry: ['./main.ts'],
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     publicPath: '/build',
@@ -19,7 +19,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.ts$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
@@ -43,6 +43,7 @@ const config = {
     alias: {
       'react-dom': '@hot-loader/react-dom',
     },
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
   plugins: [],
 };
