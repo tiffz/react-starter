@@ -32,6 +32,7 @@
     "iOS >= 9"
   ],
   "dependencies": {
+    "@babel/preset-typescript": "^7.12.7",
     "@material-ui/icons": "^4.11.2",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
