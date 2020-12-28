@@ -12,8 +12,21 @@ export default function App() {
         with few frills.
       </p>
       <button type="button" onClick={() => setCount(count + 1)}>
-        Increase count: {count}
+        Increase cat count: {count}
       </button>
+      <CatCounter count={count} />
     </div>
+  );
+}
+
+function CatCounter({count}: {count: number}) {
+  let cats: Array<String> = [];
+  for (let i = 0; i < count; i++) {
+    cats.push('🐱');
+  }
+  return (
+    <>
+      {cats}
+    </>
   );
 }
