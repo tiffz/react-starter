@@ -19,7 +19,11 @@ const config = {
   module: {
     rules: [
       {
+<<<<<<< HEAD
         test: /\.(ts|tsx)$/,
+=======
+        test: /\.ts$/,
+>>>>>>> e4d0678e0128999978a16b20c2561069af14cfba
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
