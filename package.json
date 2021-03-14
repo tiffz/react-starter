@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "version": "0.1.0",
-  "description": "Simple Recat boilerplate for client side projects",
+  "description": "Simple React boilerplate for client side projects",
   "main": "src/main.js",
   "scripts": {
     "compile": "webpack",
@@ -12,14 +12,14 @@
     "deploy": "gh-pages -d public"
   },
   "keywords": [
-    "ANCH",
-    "Flowers"
+    "React",
+    "Starter"
   ],
   "author": "Tiff Zhang",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tiffz/flowers.git"
+    "url": "git://github.com/tiffz/react-starter.git"
   },
   "postcss": {
     "plugins": {
