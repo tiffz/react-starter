@@ -16,7 +16,7 @@ Supported features:
 # To copy into a new folder
 
 ```
-git clone --single-branch -b master https://github.com/tiffz/react-starter.git MyApp
+git clone --single-branch -b main https://github.com/tiffz/react-starter.git MyApp
 cd MyApp
 ```
 
