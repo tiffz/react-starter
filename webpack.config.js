@@ -8,8 +8,11 @@ const config = {
   context: path.join(__dirname, 'src'),
   entry: ['./main.ts'],
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    publicPath: '/build',
+    static: {
+      directory: path.join(__dirname, 'public'),
+      serveIndex: true,
+      watch: true,
+    },
     hot: true,
   },
   output: {
