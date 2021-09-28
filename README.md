@@ -20,6 +20,13 @@ git clone --single-branch -b main https://github.com/tiffz/react-starter.git MyA
 cd MyApp
 ```
 
+# Install dependencies
+
+
+```
+npm install
+```
+
 # To start dev server
 
 
