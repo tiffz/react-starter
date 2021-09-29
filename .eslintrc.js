@@ -65,6 +65,7 @@ module.exports = {
 
     'react/forbid-prop-types': 'off',
     'react/destructuring-assignment': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
   },
 
   settings: {

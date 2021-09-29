@@ -8,10 +8,16 @@ const config = {
   context: path.join(__dirname, 'src'),
   entry: ['./main.ts'],
   devServer: {
+    client: {
+      overlay: true,
+    },
     static: {
       directory: path.join(__dirname, 'public'),
       serveIndex: true,
       watch: true,
+    },
+    devMiddleware: {
+      writeToDisk: true,
     },
     hot: true,
   },
