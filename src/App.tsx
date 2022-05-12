@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from '@mui/material/Button';
 
 import styles from './App.css';
 
@@ -11,9 +12,7 @@ export default function App() {
         This is a simple starter kit to help you bootstrap your React project
         with few frills.
       </p>
-      <button type="button" onClick={() => setCount(count + 1)}>
-        Increase cat count: {count}
-      </button>
+      <Button variant="outlined" onClick={() => setCount(count + 1)}>Increase cat count: {count}</Button>
       <CatCounter count={count} />
     </div>
   );
