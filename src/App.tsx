@@ -19,14 +19,10 @@ export default function App() {
   );
 }
 
-function CatCounter({count}: {count: number}) {
-  let cats: Array<String> = [];
+function CatCounter({ count }: { count: number }) {
+  const cats: Array<String> = [];
   for (let i = 0; i < count; i++) {
     cats.push('🐱');
   }
-  return (
-    <>
-      {cats}
-    </>
-  );
+  return <>{cats}</>;
 }
