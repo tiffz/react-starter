@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Root from './Root';
+import App from './App';
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(React.createElement(Root), document.getElementById('mount'));
+  ReactDOM.render(React.createElement(App), document.getElementById('mount'));
 });
