@@ -7,7 +7,6 @@ module.exports = {
     'airbnb',
     'plugin:css-modules/recommended',
     'prettier',
-    'prettier/react',
   ],
 
   plugins: ['css-modules', 'prettier'],
